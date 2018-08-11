@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -44,4 +43,3 @@ plugins:
 #   - vendor/ruby/
 =======
 theme: jekyll-theme-architect
->>>>>>> 12e90f569acd8fe8ad65fab0bf90ac7c38309f61
