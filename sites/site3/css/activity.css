@@ -1,0 +1,145 @@
+#nav h2{
+    text-align: center;
+    color: violet;
+    margin-top: 20px;
+}   
+#content img{
+    padding: 0.63em;
+    margin-top: 10px; 
+}
+#content h2{
+    margin-left: 0.5em;
+    color: lawngreen;
+    padding: 5px;
+    margin-top: -5px;
+}
+h6{
+    margin-left: 0.8em;
+    color: lawngreen;
+    font-size: 0.9em;
+    font-style: normal;
+    margin-top: -25px;
+    padding: 5px;
+}
+#content p{
+    color: white;
+    margin-left: 0.7em;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -25px;
+}
+#place{
+    background-color: white;
+    
+    
+}
+#place1 img{
+    padding: 10px;
+    float:left;
+    margin-top: -50px;
+}
+#place1 h3{
+    padding-top: 10px;
+    padding-bottom: -90px;
+    margin-left:420px;
+    color: red;
+    font-style: italic;
+}
+#place1 h5{
+    margin-top: 10px;
+}
+#place1 p{
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    margin-top:20px 
+}
+#place2 img{
+   padding: 10px;
+    float:left;
+    margin-top: -50px;
+   
+}
+#place2 h3{
+    margin-top: 50px;
+    margin-left: 420px;
+    color: red;
+    font-style: italic;
+   
+}
+#place2 p{
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    width: 83%;
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: 150px;
+}
+#place2 h5{
+    margin-top: -10px;
+}
+
+#place3 img{
+    padding: 10px;
+    float:left;
+    margin-top: -60px;
+   
+}
+#place3 h3{
+    margin-top: 30px;
+    color: red;
+    font-style: italic;
+    margin-left: 420px;
+    
+   }
+#place3 p{
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    
+    width:83%;
+    margin-left: 150px;
+        
+}
+#place4 img{
+    padding: 10px;
+    float:left;  
+    margin-top: -50px;
+   
+}
+#place4 h3{
+   margin-left: 410px;
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+}
+#place4 p{
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    width: 83%;
+    padding: 10px;
+    margin-left: 145px;
+    margin-top: -15px;
+}
+
+
+.cleared {
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

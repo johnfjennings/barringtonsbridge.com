@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head> 
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title> Barrington's Bridge Project 1-Gallery Page</title>
+        
+        <!--reference on HTML page to CSS file-->
+        <link rel="stylesheet"      href="./css/styles2.css">
+
+        <!--JAVASCRIPT-->
+        <script>
+            
+        // Open the Modal
+            function openModal() { document.getElementById('myModal').style.display = "block";
+            }
+
+        // Close the Modal
+            function closeModal() { document.getElementById('myModal').style.display = "none";
+            }
+
+        var slideIndex = 1;
+            showSlides(slideIndex);
+
+        // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+        // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+            
+        </script>
+        
+<!--Other Links-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        
+        <!--tab favicon-->
+        <link rel="icon" href="img/favicon.PNG">
+
+<!--STYLE OF WEBSITE-->        
+        <style>
+	       </style>
+             
+        </head>
+        
+
+    
+
+    
+    
+<!--BODY OF WEBSITE-->
+    <body>
+        <h2 id="top"></h2>
+        <div id="wrapper">
+            
+<!--LOGO-->
+            <header>
+                
+                <h1>THE BARRINGTON'S OF LIMERICK</h1>
+                
+                <a href="HomePage.html">
+                    
+                <img src="img/logobarrbridge09.PNG" alt="logobarrbridge" width="18.3%" height="77%">
+                <link rel="icon"></a>
+                
+                
+<!--Search Bar-->
+                <div class="search">
+                        <form>
+                            <input type="text" placeholder="Search" name="search"><button type="submit" ><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+  
+                </header>
+                
+                
+<!--Nav Bar-->                          
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li ><a href="HistoryPage.html">History</a> </li>
+        <li> <a href="GalleryPage2.html"  class="current"> GALLERY</a> </li>
+        <li><a href="BridgesPage.html">Bridges</a> </li>
+        <li><a href="ContactPage.html">Contact</a> </li>
+        </ul>
+    </nav>
+                
+    
+<!--<main>-->  
+    <main>
+            
+    <div id="pagetitle">
+        <h2>Gallery</h2>    
+    </div>
+    <div id="hero">
+        <a href="https://www.google.ie/maps/@52.6662793,-8.6218016,3a,37.5y,17.51h,94.64t/data=!3m6!1e1!3m4!1syvRRTIgZNDXDwfqR2peH4w!2e0!7i13312!8i6656">
+        <img src="img/BarrHosp2.PNG" alt="BarrHosp" width="1000px" height="400px" border:0></a> 
+        </div>
+                
+<!--QUOTE-->
+    <ul>
+        <li><strong>"A people without the knowledge of their past history, origin and culture is like a tree without roots." - Marcus Garvey
+        </strong></li><br><br> 
+    </ul>
+
+        
+<!--Gallery--> 
+    <div>
+        <h2>Bicentenary Birthday Gallery</h2>
+              
+<!-- Images used to open the lightbox -->
+        <div class="row">
+            <div class="column">
+                <img src="img/BarrBrChosenFotos/Cake01.PNG" style="width: 100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+            
+        <div class="column">
+                <img src="img/BarrBrChosenFotos/pple08.PNG" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+            
+        <div class="column">
+                <img src="img/BarrBrChosenFotos/pple04.PNG" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+            
+        <div class="column">
+            <img src="img/BarrBrChosenFotos/pple02.PNG" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+        </div>
+        
+        
+
+<!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+                <img src="img/BarrBrChosenFotos/Cake01.PNG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+                <img src="img/BarrBrChosenFotos/br08.PNG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+                <img src="img/BarrBrChosenFotos/pple04.PNG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+                <img src="img/BarrBrChosenFotos/pple02.PNG" style="width:100%">
+        </div>
+
+<!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+<!-- Thumbnail image controls -->
+        <div class="column">
+            <img class="demo" src="img/BarrBrChosenFotos/Cake01.PNG" onclick="currentSlide(1)" alt="Barrington Bridge Cake" width="100%">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="img/BarrBrChosenFotos/br08.PNG" onclick="currentSlide(2)" alt="County Limerick Locals" width="100%">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="img/BarrBrChosenFotos/pple04.PNG" onclick="currentSlide(3)" alt="Barrington Bridge Celebrations" width="100%">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="img/BarrBrChosenFotos/pple02.PNG" onclick="currentSlide(4)" alt="Bicentenary Celebrations" width="100%">
+        </div>
+    </div>
+    </div>
+
+    </div>     
+          
+        
+<!--TEXTS--> 
+    <div>
+        <div>
+            <h2><strong>Barrington Bridge's Bicentenary Celebrations</strong></h2>
+        </div>
+            <p>HUNDREDS of people from near and far gathered at Barrington’s Bridge in County Limerick for its bicentenary celebrations. 
+
+            Situated in the townland of Clonkeen, it connects the parishes of Murroe-Boher and Ahane, Castleconnell, Montpelier. It carries the name of Matthew Barrington, who commissioned it in 1818 to cross the Mulcair River.
+
+            Troughs of beautiful flowers, kindly supplied for the day by Limerick City and County Council, adorned the bridge. They also painted it for the occasion. A giant banner and bunting added to the historic anniversary. 
+
+            Following an address by the chairperson of the Barrington’s Bridge Residents Committee, there was a very informative talk by Fr Brian Murphy on the erection of the bridge. </p>
+
+            <p> Born in 1788, Matthew Barrington became Crown Solicitor for Munster in 1814. Four years later, Matthew became interested in an estate in east Limerick which originally belonged to Lord Carbery. 
+
+            It was then that he had this bridge constructed over the Mulcair which was called Barrington’s Bridge. Matthew left Limerick city and took up residence in Clonkeen House. Over 53 feet long, it was the first iron road bridge to be turned out by an Irish foundry - James Doyle and Company.</p>
+
+            <p>Fr Loughlin Brennan, PP Murroe-Boher and Fr Tom Whelan, CC Castleconnell blessed the old and new bridges. Also present were Fr Willie Teehan, PP Castleconnell and Fr Donough O’Malley, president Thomond Archaeological and Historical Society, Senator Kieran O’Donnell, Cllrs Marian Hurley, Brigid Teefy, Gerald Mitchell, Eddie Ryan and former councillors, Paddy Hourigan and Joe Meagher. 
+
+            Local historians and members of Murroe, Castleconnell, Cappamore, Thomond Archaeological and Historical Societies, and Murroe Community Council attended.</p>
+
+            <p>Frances Moore, a descendant of the Barringtons, and her nephew Stephen Warnock attended the event. As the bicentennial celebratory birthday cake was unveiled the crowd spontaneously sang happy birthday. Isobel McGowan, aged six, blew out the candles on the specially designed cake. When the formalities were concluded the cake and refreshments were enjoyed on the O’Brien’s lawn.
+
+            Mementoes of the day - picture postcards commemorating the bicentennial and a brief history of Barrington’s Bridge - were designed and written by local historian and author Mary A Moloney. Two hundred year birthdays don't come around too often and this one was enjoyed by all those present. - <strong><em>Donal O'Reagan, Limerick Leader</em></strong> </p>
+        </div>
+  
+        <br>
+        <br>
+    
+    </main>
+        </div>
+    
+	   
+    
+
+<!--Footer-->           
+        <footer>
+        &copy; Copyright 2018 |    
+<!--SOCIAL MEDIA LINKS-->
+                <a href=" https://www.flickr.com/photos/seoinin/sets/72157700232766101/"><img src="img/img/flickerIcon.PNG"></a>
+                
+                <a href="https://www.facebook.com/"><img src="img/img/FBIcon.PNG"></a>
+                
+                <a href="https://www.instagram.com/?hl=en"><img src="img/img/InstaIcon.PNG"></a>
+                
+                <a href="http://wiki.csisdmz.ul.ie/wiki/The_Barrington_Family"><img src="img/img/WikiIcon.PNG"></a>
+                
+                <a href="https://twitter.com/?lang=en"><img src="img/img/TwiiterIcon.PNG"></a> | Ashley Mc Inerney                     
+    </footer>
+
+<!--Internal Top of Page-->  
+          <a href="#top">Back to top</a>
+            
+    </body>  
+</html>

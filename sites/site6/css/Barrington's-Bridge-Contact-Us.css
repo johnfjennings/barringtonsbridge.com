@@ -1,0 +1,90 @@
+body {
+    background-image: url(../images/img_3177_30145519898_o.jpg);
+    background-size: cover;
+    margin: auto;
+}
+div#header {
+    background: black;
+    color: whitesmoke; 
+    border: solid black;
+    font-size: 2em;
+    padding-left: 50px;
+}
+div#header img {
+    float: left;
+    padding: 20px;
+}
+div#Page {
+    background-color: whitesmoke;
+    border: solid black 5px;
+}
+nav li {
+    display: inline-block;
+}
+nav {
+    padding: 2px;
+    text-align: center;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+nav a {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    border-bottom: solid 2px green;
+    color: green;
+}
+div#ContactForm {
+    background-color: whitesmoke;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 5px;
+    text-align: center;
+    width: 1000px;
+}
+div#ContactForm h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+fieldset {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p {
+    margin-left: 115px;
+    font-size: 1.5em;
+}
+textarea {
+    margin-left: 115px;
+}
+img.floatright {
+    margin-right: 20px;
+    float:right;
+    margin-top: 34px;
+}
+footer {
+    background-color: whitesmoke;
+    border: solid black 5px;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    font-size: 1.25em;
+}
+div#Searchbar {
+    background-color: black;
+}
+input {
+    font-size: 1.25em;
+    margin-left: 75px;
+}

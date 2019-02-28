@@ -1,0 +1,98 @@
+body {
+    background-image: url(../images/img_3177_30145519898_o.jpg);
+    background-size: cover;
+    margin: auto;
+}
+div#header {
+    background: black;
+    color: whitesmoke; 
+    border: solid black;
+    font-size: 2em;
+    padding-left: 50px;
+}
+div#header h1 {
+    font-size: 2em;
+}
+div#header img {
+    float: left;
+    padding: 20px;
+}
+div#Page {
+    background-color: whitesmoke;
+    border: solid black 5px;
+}
+nav li {
+    display: inline-block;
+}
+nav {
+    padding: 2px;
+    text-align: center;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+nav a {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    border-bottom: solid 2px green;
+    color: green;
+}
+div#info {
+    background-color: whitesmoke;
+    border: solid black 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    
+}
+div#info h1 {
+    font-size: 3em;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em
+}
+div#info img {
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+div#info ul li {
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20PX;
+}
+footer {
+    background-color: whitesmoke;
+    border: solid black 5px;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    font-size: 1.25em;
+}
+div#Searchbar {
+    background-color: black;
+}
+input {
+    font-size: 1.25em;
+    margin-left: 75px;
+}

@@ -1,0 +1,88 @@
+#nav h2{
+    text-align: center;
+    color: violet;
+}
+
+img {
+  vertical-align: middle;
+}
+.imagegallery {
+    position: relative;
+    padding:10px;
+    margin-top: 15px;
+    background-color: white;
+}
+.imagegallery h2{
+    text-align: center;
+    color: red;
+    
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+    cursor: pointer;
+       
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+
+  
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: white;
+}
+
+.number{
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      margin-top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 1.0;
+}
+
+.active,
+.demo:hover {
+  opacity: 1.0;
+}

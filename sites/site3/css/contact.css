@@ -1,0 +1,23 @@
+#contact form{
+    //margin-left: 5px;
+    margin-top: 50px;
+    padding:10px;
+    background-color: white;
+    
+ }
+#contact input{
+   margin-left: 10px;
+}
+#contact p{
+    font-family: arial;
+    font-size: 0.95em;
+}
+h4{
+    font-style: italic;
+}
+
+#nav h2{
+    text-align: center;
+    color: violet;
+    margin-top: 20px;
+}

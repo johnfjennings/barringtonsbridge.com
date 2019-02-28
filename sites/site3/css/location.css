@@ -1,0 +1,41 @@
+
+#nav h2{
+    text-align: center;
+    color: violet;
+    margin-top: 20px;
+}
+ #address{
+    background-color: white;
+  
+  }
+#address h2{
+    margin-top:30px;
+    padding-top: 90px;
+    //float:left;
+    width: 30%;
+    margin-left: 20px;
+    font-family: Arial;
+    //font-size: 0.9em;
+    
+}
+address{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 1em;
+    font-style: normal;
+}
+#googlemap{
+    width: 80%;
+    float: right;
+    padding: 1px;
+}
+#googlemap img{
+    margin-top: -90px;
+}
+
+.cleared {
+    clear:both;
+}

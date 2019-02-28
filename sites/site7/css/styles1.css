@@ -1,0 +1,493 @@
+body {
+    background-color: #555;
+    font-family: serif;
+    border: none;
+    }
+
+div#wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding-bottom: 10px; 
+    background-color: white;
+    border: none;
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  src:  url(https://fonts.googleapis.com/css?family=Noto+Serif+SC) format('woff2');
+}
+
+p {
+    font-family: 'Noto Serif SC', serif; 
+    font-weight: 200;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: .8em;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+table {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+td {
+    padding:15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    background-color: #555;
+    }
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-block {
+    position: relative;
+    top: -650px;
+    left:-245px;
+    color: white;
+    font-size: 4.2em;
+    border: none;
+}
+
+.text-block h1 {
+   color: white;
+    font-size: 1em;
+    margin:0;   
+}
+
+.container .btn {
+ position: relative;
+ top: -130px;
+ left: 60px;
+ margin-top: auto;
+ transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 1.6em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+nav {
+    background-color: white;
+    border: none;
+    font-size: 1.1em;
+    height: 50px;
+    text-align: center;
+}
+
+nav ul { 
+    list-style-type: none;
+    width: 970px;
+    align-content: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    width: 65px;
+    border: none;
+    margin-right: 50px;
+}
+
+nav a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #808181;
+}
+
+nav a:hover {
+    color: #021645;
+} 
+
+nav a.currentpage {
+    color: #0b7dda;
+}
+
+nav form.search {
+  font-size: 17px;
+  float: left;
+  border: 1.2px solid grey;
+  height: 23px;
+  background: #f1f1f1;
+}
+
+nav form.search button {
+  background: #021645;
+  float:left;
+  color: white;
+  font-size: 17px;
+  border: .5px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+nav form.search button:hover {
+  background: #0b7dda;
+}
+
+nav form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.searchbar {
+    width:200px;
+}
+
+nav img {
+    padding-top: 1px;
+    align-content: center;
+}
+
+input[type=search] {
+  width: 80%;
+  margin: 5px;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=search]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.bridgeHead {
+    font-style: italic;
+}
+
+.gallery {
+    margin: 10px 50px;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.gallery img {
+    width: 285px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.gallery h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.contactForm h1 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 20px;
+}
+
+.sectionhospital img, .sectionglenstal img, .Bridge img {
+    float: right;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.Bridge .btn {
+ position: relative;
+ top: 400px;
+ left: 500px;
+ transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.bridgeHistory img {
+    padding-left: 20px;
+    margin-top: -45px;
+}
+
+.Bridge h1, .sectionhospital h1, .sectionglenstal h1, .familyhistory h1, .familysection h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 2.2em;
+    margin-bottom: -5px;
+}
+
+.bridgeHistory h2 {
+    padding-left: 20px;
+    width: 50%;
+    font-size: 1.8em;
+}
+
+.bridgePlq img {
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.familysection img {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.familysection h3 {
+    padding-left: 20px;
+}
+
+.hospitaltoday img {
+    float: right;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.familyhistory img {
+    float: right;
+    padding-left: 15px;
+    padding-right: 20px;
+    vertical-align: text-bottom;
+}
+
+.glenstalfamily img {
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+.sectionhospital h3, .sectionglenstal h3, .familyhistory h3 {
+    padding-left: 20px;
+    margin-bottom: -5px;
+}
+
+.oldjournal img {
+    float: left;
+    padding-top: 35px;
+}
+
+div.panel {
+    background-color: #808181;
+    border: 1px black solid;
+    width: 260px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+    color: #f1f1f1;
+}
+
+div.panel img {
+    background-color: #f1f1f1;
+    width: 210px;
+    display: inline-block;
+    padding: 5px;
+}
+
+div.panel p {
+    text-align: left;
+    display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contactForm {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+fieldset {
+    float: right;
+    display: block;
+}
+
+.connectwith {
+    float: right;
+    margin-top: -290px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+    margin-top: 15px;
+    width: 99%;
+    text-align: left; 
+}
+
+.containerForm {
+  border: solid 2px;
+  padding: 16px;
+  display: inline-block;
+}
+
+input[type=textsearch] {
+  width: 80%;
+  margin: 5px;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=textsearch]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.contactForm .submitbtn {
+  background-color: #021645;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  margin-top: -10px;
+  margin-left: 740px;
+}
+
+.regbtn:hover {
+  opacity:1;
+}
+
+textarea {
+    font-family: serif;
+    font-size: 1em;
+}
+
+div#thanks {
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    padding-bottom: 20px;
+}
+
+div#thanks h1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.footer {
+    color: white;
+    background-color: #021645;
+    height: 130px;
+    padding-top: 20px;
+    padding-left: 20px;
+} 
+
+.footer h3 {
+    text-align: left;
+    padding: 0;
+    font-size: 24px;
+}
+
+.footerpics {
+    padding-right: 30px;
+    padding-left: 20px;
+    float: right;
+    margin-top: -30px;
+}
+
+.footerText {
+    text-align: center;
+}
+
+.containerFormFooter {
+    text-align: left;
+    padding-top: 5px;
+    margin-top: -30px;
+}
+
+.footerclear {
+    clear: both;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #0b7dda;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}

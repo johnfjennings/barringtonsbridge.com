@@ -1,0 +1,42 @@
+#partypicture{
+    
+    padding: 0.63em;
+    margin-top: 5px; 
+    box-sizing: border-box;
+    
+}
+div.picturecollection{
+    text-align: center;
+    padding: 0.63em;
+    margin-left: -1.2em;
+}
+div.collection{
+   // background-color: cornflowerblue;
+    border: 2px white solid;
+    //width:310px;
+   text-align: center;
+    display: inline-block;
+    margin-bottom: 0.63em;
+}
+.content{
+    background-color: white;
+}
+div .content1 h3{
+    text-decoration: underline;
+}
+div .content1, div.content2{
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+}
+#partypicture h2{
+    text-align: center;
+    color:violet;
+    
+    
+}

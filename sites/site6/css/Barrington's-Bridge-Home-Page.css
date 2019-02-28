@@ -1,0 +1,80 @@
+body {
+    background-image: url(../images/img_3177_30145519898_o.jpg);
+    background-size: cover;
+    margin: auto;
+}
+div#header {
+    background: black;
+    color: whitesmoke; 
+    border: solid black;
+    font-size: 2em;
+    padding-left: 50px;
+}
+div#header img {
+    float: left;
+    padding: 20px;
+}
+div#Page {
+    background-color: whitesmoke;
+    border: solid black 5px;
+}
+nav li {
+    display: inline-block;
+}
+nav {
+    padding: 2px;
+    text-align: center;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+nav a {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+}
+nav a:hover {
+    border-bottom: solid 2px green;
+    color: green;
+}
+div#Welcome {
+    background-color: whitesmoke;
+    width: 960px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    border: solid black 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#Welcome h1 {
+    text-align: center;
+    font-size: 5em;
+}
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+div#Welcome p {
+    text-align: center;
+    font-size: 2em;
+}
+footer {
+    background-color: whitesmoke;
+    border: solid black 5px;
+    bottom: 0;
+}
+p {
+    text-align: center;
+    font-size: 1.25em;
+}
+div#Searchbar {
+    background-color: black;
+}
+input {
+    font-size: 1.25em;
+    margin-left: 75px;
+}
